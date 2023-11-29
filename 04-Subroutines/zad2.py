@@ -1,13 +1,17 @@
-import math 
+# In addition to the built-in functions, you can use numerous functions available in ready-to-use modules. One example is the 'math' module.
 
-log_5 = math.log(5)
-print(f"Natural logarithm of 5: {log_5}")
+# Using functions and constants available in the 'math' module, write a program that calculates and displays:
 
-e_power_3 = math.exp(3)
-print(f"e raised to the power of 3: {e_power_3}")
+import math
 
-sqrt_7 = math.sqrt(7)
-print(f"Square root of 7: {sqrt_7}")
+# a. natural logarithm of 5
+print(math.log(5))
 
-sine_90_deg = math.sin(math.radians(90))
-print(f"Sine of 90 degrees: {sine_90_deg}")
+# b. e raised to the powe of 3
+print(math.exp(3))
+
+# c. square root of 7
+print(math.sqrt(7))
+
+# d. sine of 90 degrees
+math.sin(math.radians(90))
